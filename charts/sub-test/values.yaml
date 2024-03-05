@@ -1,2 +1,3 @@
 dessert: cake
 hello: "subchart"
+mytempl: from-sub-values

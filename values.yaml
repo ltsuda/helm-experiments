@@ -8,10 +8,12 @@ pizzaToppings:
   - peppers
   - onions
 
+mytempl: from-parent-values
 
 sub-test:
   dessert: ice cream
   hello: from-sub
+  mytempl: from-sub-test
 
 global:
   salad: caesar

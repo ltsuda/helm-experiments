@@ -3,6 +3,7 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
   {{- template "parent-test.labels" . }}
+  {{- template "my-templ" . }}
 data:
   myValue: "Hello World"
   {{- $relname := .Release.Name }}
