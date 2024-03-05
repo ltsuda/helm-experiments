@@ -16,3 +16,4 @@ data:
     - {{ . | title | quote }}
     {{- end}}
   salad: {{ .Values.global.salad }}
+  hello: {{ .Values.hello }}

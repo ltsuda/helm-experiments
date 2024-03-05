@@ -11,6 +11,9 @@ pizzaToppings:
 
 sub-test:
   dessert: ice cream
+  hello: from-sub
 
 global:
   salad: caesar
+
+hello: from-parent
