@@ -7,3 +7,10 @@ pizzaToppings:
   - cheese
   - peppers
   - onions
+
+
+sub-test:
+  dessert: ice cream
+
+global:
+  salad: caesar
