@@ -21,3 +21,6 @@
 .idea/
 *.tmproj
 .vscode/
+
+## testing ignoring
+dependency-test/
